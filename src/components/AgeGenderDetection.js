@@ -69,7 +69,13 @@ const AgeGenderDetection = () => {
   };
 
   return (
-    <div style={{ fontFamily: "Arial, sans-serif", padding: "20px" }}>
+    <div
+      style={{
+        fontFamily: "Arial, sans-serif",
+        padding: "20px",
+        marginLeft: "220px", // Adjust based on your sidebar width
+      }}
+    >
       <h1 style={{ textAlign: "center", color: "#4CAF50" }}>
         Age & Gender Detection
       </h1>
@@ -127,7 +133,7 @@ const AgeGenderDetection = () => {
                 src={image}
                 alt="Uploaded"
                 style={{
-                  maxWidth: "100%",
+                  maxWidth: "80%",
                   border: "1px solid #ccc",
                   borderRadius: "5px",
                 }}
@@ -150,3 +156,44 @@ const AgeGenderDetection = () => {
 };
 
 export default AgeGenderDetection;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
